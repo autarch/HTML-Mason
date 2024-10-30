@@ -26,7 +26,7 @@ __END__
 
     PerlModule HTML::Mason::ApacheHandler
 
-    <Location />
+    <Location>
         SetHandler perl-script
         PerlHandler HTML::Mason::ApacheHandler
     </Location>
@@ -130,7 +130,7 @@ httpd.conf:
 
     PerlModule HTML::Mason::ApacheHandler
 
-    <Location />
+    <Location>
         SetHandler perl-script
         PerlHandler HTML::Mason::ApacheHandler
     </Location>
